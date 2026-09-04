@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg2)" rx="24" />
+  
+  <!-- Outer Gold Frame -->
+  <rect x="50" y="50" width="700" height="700" rx="20" fill="none" stroke="#d97706" stroke-width="2" stroke-opacity="0.4" />
+  
+  <text x="400" y="140" font-family="Plus Jakarta Sans, sans-serif" font-size="16" font-weight="800" fill="#fbbf24" text-anchor="middle" letter-spacing="4">LUXURY REAL ESTATE CAMPAIGN</text>
+  
+  <text x="400" y="220" font-family="Plus Jakarta Sans, sans-serif" font-size="46" font-weight="900" fill="#ffffff" text-anchor="middle">
+    EXCLUSIVE VILLAS
+  </text>
+  <text x="400" y="270" font-family="Plus Jakarta Sans, sans-serif" font-size="24" font-weight="600" fill="#94a3b8" text-anchor="middle">
+    Gated Community • 4 & 5 BHK
+  </text>
+  
+  <!-- Image Card Container -->
+  <rect x="100" y="320" width="600" height="260" rx="20" fill="#1e293b" stroke="#334155" stroke-width="2" />
+  <text x="400" y="440" font-family="Plus Jakarta Sans, sans-serif" font-size="28" font-weight="800" fill="#38bdf8" text-anchor="middle">
+    450+ High-Ticket Leads
+  </text>
+  <text x="400" y="480" font-family="Plus Jakarta Sans, sans-serif" font-size="16" font-weight="600" fill="#94a3b8" text-anchor="middle">
+    Cost Per Lead Reduced by 34% with Meta Instant Forms
+  </text>
+  
+  <rect x="250" y="620" width="300" height="56" rx="28" fill="url(#accent2)" />
+  <text x="400" y="655" font-family="Plus Jakarta Sans, sans-serif" font-size="16" font-weight="900" fill="#0f172a" text-anchor="middle">
+    DOWNLOAD BROCHURE
+  </text>
+</svg>

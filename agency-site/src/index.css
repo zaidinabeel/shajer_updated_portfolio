@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .maison-card {
+    background: #FFFFFF;
+    border: 1px solid rgba(28, 23, 20, 0.08);
+    box-shadow: 0 4px 20px -4px rgba(28, 23, 20, 0.04);
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .maison-card:hover {
+    border-color: rgba(150, 94, 58, 0.3);
+    box-shadow: 0 12px 30px -10px rgba(28, 23, 20, 0.08);
+    transform: translateY(-2px);
+  }
+}
+
+/* Minimalist bespoke scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #E5DED5;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #965E3A;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: 200%;
+  animation: marquee 35s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
